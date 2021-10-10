@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #fff;
+}
+form {
+	width: 300px;
+	height: auto;
+	background-color: #fff;
+	box-shadow: 0px 0px 20px 5px #ddd;
+}
+form input {
+	width: 100%;
+	padding: 10px;
+	border: 0;
+	outline: 0;
+	border-bottom: 1px solid #ddd;
+	font-size: 25px;
+	height: 100px;
+	background: #fff;
+	color: black;
+}
+form button {
+    width: 24%;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-top: 2px;
+    border: 0;
+    outline: 0;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    height: 40px;
+	width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#equl {
+	background-color: rgb(233, 84, 15);
+	color: white;
+	font-size: 25px;
+}
+form button.color {
+    color: #ff5a0d;
+}
+form button:focus{
+    background-color: #ddd;
+}
+form div {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+.input {
+    margin: 0;
+}
+#myText::placeholder {
+    color: black;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    
+    <form action="#">
+        <div class="input">
+            <input placeholder="0" disabled="disabled" id="myText" type="text">
+        </div>
+        <div id="fast-div">
+            <button type="button" class="btn color"  onclick="cFunction()">AC</button>
+            <button type="button" class="btn color"  onclick="crosFunction()"><span><i class="far fa-times-circle"></i></span></button>
+            <button type="button" class="btn color"  onclick="myFunction2('%')">%</button>
+            <button type="button" class="btn color"  onclick="myFunction2('/')"><i class="fas fa-divide"></i></button>
+        </div>
+        <div>
+            <button type="button" class="btn"  onclick="myFunction('7')">7</button>
+            <button type="button" class="btn "  onclick="myFunction('8')">8</button>
+            <button type="button" class="btn"  onclick="myFunction('9')">9</button>
+            <button type="button" class="btn color"  onclick="myFunction2('*')"><i class="fas fa-times"></i></button>
+        </div>
+        <div>
+            <button type="button" class="btn"  onclick="myFunction('4')">4</button>
+            <button type="button" class="btn"  onclick="myFunction('5')">5</button>
+            <button type="button" class="btn"  onclick="myFunction('6')">6</button>
+            <button type="button"  class="btn color"  onclick="myFunction2('-')"> <i class="fas fa-minus"></i> </button>
+        </div>
+        <div>
+            <button type="button" class="btn"  onclick="myFunction('1')">1</button>
+            <button type="button" class="btn"  onclick="myFunction('2')">2</button>
+            <button type="button" class="btn"  onclick="myFunction('3')">3</button>
+            <button type="button" class="btn color"  onclick="myFunction2('+')"><i class="fas fa-plus"></i></button>
+        </div>
+        <div>
+            <button type="button" class="btn color"  onclick="myFunction('')"><i class="fas fa-atom"></i></button>
+            <button type="button" class="btn"  onclick="myFunction('0')">0</button>
+            <button type="button" class="btn"  onclick="myFunction('.')">.</button>
+            <button id="equl" type="button" class="btn"  onclick="uqulFunction()"> = </button>
+        </div>
+    </form>
+
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
